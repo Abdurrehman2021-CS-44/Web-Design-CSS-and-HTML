@@ -1,0 +1,146 @@
+#root {
+    margin-bottom: 120px;
+}
+
+.container-fluid {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+}
+.navbar {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+	text-align: center;
+	background-color: #1abc9c;
+    padding: 10px 0;
+}
+
+.footer p {
+	margin-top: 25px !important;
+	font-size: 12px;
+    color: #fff;
+}
+
+.home-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.home-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.main-content {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.main-address {
+    font-style: normal;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .header, .footer {
+        padding: 10px 0;
+    }
+    .main {
+        padding: 10px;
+    }
+}
+
+/* Styling for contact table */
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table th, .contact-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.contact-table th {
+    background-color: #f2f2f2;
+}
+
+.contact-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contact-table tr:hover {
+    background-color: #ddd;
+}
+
+.blogs {
+    margin-bottom: 120px;
+}
+
+.blog-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    float: left;
+    border: 2px solid #ab9f9f;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.blog h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.blog p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .blog {
+        padding: 10px;
+    }
+}

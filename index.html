@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Daily Journal</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">DAILY JOURNAL</a> <!-- Changed <a> to <h1> for the branding -->
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="home"><a href="./index.html">HOME</a></li>
+                        <li id="about"><a href="./about.html">ABOUT US</a></li>
+                        <li id="contact"><a href="./contact.html">CONTACT US</a></li>
+                        <li id="compose"><a href="./compose.html">COMPOSE BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container"> <!-- Changed <div> to <section> for the main content -->
+            <div class="home-image">
+                <img src="images/home-image.jpeg" alt="home image">
+            </div>
+            <article> <!-- Changed <div> to <article> for the blog content -->
+                <header class="header">
+                    <h1 class="header-title">Welcome to Daily Journal</h1>
+                </header>
+                <div class="main">
+                    <p class="main-content">
+                        At Daily Journal, we believe in the power of words to inspire, educate, and connect. Explore our collection of thought-provoking blogs covering a diverse range of topics. From insightful personal reflections to informative guides, there's something for everyone. Join our community of passionate writers and readers, and embark on a journey of discovery together.
+                    </p>
+                </div>
+            </article>
+            <section class="blogs"> <!-- Changed <div> to <section> for the blog section -->
+                <article class="blog"> <!-- Changed <div> to <article> for each blog post -->
+                    <div class="blog-image">
+                        <img src="images/global-warming.jpeg" alt="global warming">
+                    </div>
+                    <h1>Global Warming</h1>
+                    <i>Written By Ali Ahmed</i>
+                    <p>Global warming is a pressing environmental issue that has garnered significant attention worldwide. It refers to the long-term increase in Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases into the atmosphere. These gases, such as carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O), trap heat from the sun, leading to a gradual rise in temperature across the globe. The consequences of global warming are profound and wide-ranging, impacting ecosystems, weather patterns, sea levels, and human societies.
+                        One of the most evident effects of global warming is the alteration of weather patterns and the increase in extreme weather events. Higher temperatures intensify the frequency and severity of heatwaves, droughts, hurricanes, and heavy rainfall. These events can devastate communities, causing loss of life, property damage, and disruptions to agriculture and infrastructure. Moreover, rising temperatures contribute to the melting of polar ice caps and glaciers, leading to sea-level rise. This phenomenon poses a significant threat to coastal regions, where densely populated cities are at risk of inundation and saltwater intrusion.
+                        The consequences of global warming extend beyond environmental impacts to include socio-economic challenges. Changes in weather patterns affect agricultural productivity, leading to crop failures, food shortages, and increased food prices. Furthermore, vulnerable populations, such as the elderly, children, and low-income communities, are disproportionately affected by heatwaves and extreme weather events. In addition, global warming exacerbates existing inequalities, as marginalized communities often lack access to resources and infrastructure necessary for adaptation and resilience.
+                        Addressing global warming requires collective action at the local, national, and international levels. Governments play a crucial role in implementing policies to reduce greenhouse gas emissions, promote renewable energy sources, and transition to sustainable practices. Additionally, businesses can adopt environmentally friendly technologies and practices to minimize their carbon footprint and mitigate climate change. Individuals also have a role to play by adopting sustainable behaviors, such as reducing energy consumption, conserving water, and supporting eco-friendly initiatives.
+                        Education and awareness are essential components of efforts to combat global warming. By raising awareness about the causes and consequences of climate change, individuals can make informed choices and advocate for policy changes. Educational initiatives aimed at promoting environmental literacy and sustainability can empower communities to take action and become stewards of the planet.
+                        In conclusion, global warming is a complex and urgent issue that requires collective action to address. The impacts of climate change are far-reaching and affect ecosystems, weather patterns, sea levels, and human societies. By implementing mitigation and adaptation measures, fostering international cooperation, and promoting environmental awareness, we can work towards a sustainable future and mitigate the effects of global warming on our planet.
+                    </p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer> <!-- Changed <div> to <footer> for the footer -->
+        <div class="footer-padding">
+            <div class="footer">
+                <p>Made by Abdur Rehman</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../src/index.js" type="text/jsx"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
