@@ -1,4 +1,4 @@
-# Daily Journal
+# Web Design CSS and HTML
 
 ## Description
 
@@ -11,15 +11,15 @@ To run the website locally on your machine:
 
 1. Clone the repository:
 ```bash
-https://github.com/Abdurrehman2021-CS-44/daily-journal.git
+https://github.com/Abdurrehman2021-CS-44/Advanced-CSS-with-SASS.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd daily-journal
+cd Advanced-CSS-with-SASS
 ```
 3. Open the `index.html` file in your web browser.
 
-Alternatively, you can view the deployed version of the website at [https://abdurrehman2021-cs-44.github.io/daily-journal/](https://abdurrehman2021-cs-44.github.io/daily-journal/).
+Alternatively, you can view the deployed version of the website at https://abdurrehman2021-cs-44.github.io/Web-Design-CSS-and-HTML/
 
 ## Additional Information
 
